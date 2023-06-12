@@ -1,0 +1,9 @@
+Ensemble techniques are machine learning methods that combine multiple models to improve the predictive performance and robustness of the system. The basic idea behind ensemble techniques is to build a group of models that are diverse in some way, such as using different algorithms, different subsets of the data, or different initializations.
+
+Ensemble methods can be broadly categorized into two types:
+
+Bagging: In this approach, multiple models are trained independently on different subsets of the training data. The final prediction is then made by aggregating the predictions of all the individual models. Random Forest is a popular bagging ensemble technique, which trains a large number of decision trees on different subsets of the data and combines their predictions.
+
+Boosting: In this approach, multiple weak models are trained sequentially, with each new model trying to correct the errors of the previous models. The final prediction is then made by combining the predictions of all the individual models. AdaBoost and Gradient Boosting are popular boosting ensemble techniques.
+
+Ensemble techniques can improve the predictive accuracy of the model, reduce overfitting, and increase the robustness of the system to noise and outliers in the data. However, they can be computationally expensive and require careful tuning of the hyperparameters to achieve the best performance.

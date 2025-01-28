@@ -1,0 +1,48 @@
+1. Write a python program to to count whose text starts and endsiwth same alphabets
+x = ["Adda","xyz","1221","fox","Rider"]
+
+
+2. Delete all Duplicate value from list
+x = [34,12,67,12,54,67,34]
+
+
+3. Write a  Python program to find the list of words that are longer than n from a given list of words.
+x = "The quick brown fox jumps over the lazy dog"
+
+
+4. Write a  Python function that takes two lists and returns True if they have at least one common member.
+x = [5,6,8,3,7,1]
+y = [9,10,5,7,2,8]
+
+
+5. Write a Python program to generate all permutations of a list in Python.
+
+import itertools
+# Use 'itertools.permutations' to generate all permutations of the list [1, 2, 3], and convert the result to a list
+# This will produce all possible orderings of the elements in the list
+print(list(itertools.permutations([1, 2, 3])))
+
+6. Write a  Python program to calculate the difference between the two lists.
+ x = [6,3,7,8]
+ y = [6,3,4,8]
+
+
+7. Write a  Python program to convert a list of characters into a string.
+x = ["P","Y","T","H","O","N"]
+
+8. Write a  Python program to flatten a shallow list.
+liS = [[2, 4, 3], [1, 5, 6], [9], [7, 9, 0]]
+
+import itertools
+new_lis = list(itertools.chain(*lis))
+
+
+9. Write a  Python program to find the second smallest number in a list.
+X = [1, 1, 0, 0, 2, -2, -2]
+
+10. Write a  Python program to get the frequency of elements in a list.
+lis = [10, 10, 10, 10, 20, 20, 20, 20, 40, 40, 50, 50, 30]
+
+
+
+
